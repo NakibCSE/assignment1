@@ -70,3 +70,25 @@ header {
     margin-top: 6px;
 }
 
+/* My plan section styles */
+.plan-title{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.plan-details{
+    display: flex;
+    margin-left: 230px;
+    margin-right: 230px;
+    justify-content: space-between;
+}
+.plan-item{
+    text-align: center;
+}
+.plan-name{
+    margin-top: 6px;
+}
+.plan-description{
+    color: #737272;
+    margin-top: 6px;
+}
