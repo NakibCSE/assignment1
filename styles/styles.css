@@ -105,7 +105,7 @@ header {
 
 /* Watch section styles */
 
-.watch{
+.watch {
     margin-top: 130px;
     margin-left: 230px;
     margin-right: 200px;
@@ -115,12 +115,65 @@ header {
     border-radius: 8px;
     margin-bottom: 100px;
 }
-.watch h2{
-    color:  #FFFFFF;
+
+.watch h2 {
+    color: #FFFFFF;
     padding-left: 64px;
     padding-top: 59px;
     text-align: left;
 }
-.watch button{
+
+.watch button {
     margin-left: 64px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #151414;
+    width: 1257px;
+    height: 500px;
+}
+
+.future {
+    padding-left: 230px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    padding-right: 400px;
+    color: #F8F8F8;
+}
+
+.future p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.social {
+    margin-top: 10px;
+}
+
+.subscribe {
+    color: #FFFFFF;
+    ;
+}
+
+.footer-section {
+    display: flex;
+}
+
+.subscribe {
+    margin-top: 130px;
+    margin-right: 230px;
+}
+
+.subscribe input {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.subscribe button {
+    background-color: #005FAC;
+    color: #FFFFFF;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
 }
