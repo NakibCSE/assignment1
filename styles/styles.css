@@ -36,59 +36,91 @@ header {
     margin-top: 32px;
     width: 90px;
     height: 45px;
+    color: #005FAC;
 
 }
 
 /* Failure section styles */
 
-.failure-section img{
+.failure-section img {
     padding-left: 190px;
 }
-.failure-section{
+
+.failure-section {
     display: flex;
     margin-top: 150px;
     margin-right: 200px;
 
 }
-.failure-title{
+
+.failure-title {
     margin-top: 300px;
     margin-left: 100px;
 }
-.failure-description{
+
+.failure-description {
     padding-top: 30px;
     margin-left: 100px;
     color: #444343;
     font-size: 10px;
 }
-.failure-list{
+
+.failure-list {
     margin-top: 16px;
     margin-left: 100px;
     color: #444343;
     font-size: 10px;
 }
-.failure-item{
+
+.failure-item {
     margin-top: 6px;
 }
 
 /* My plan section styles */
-.plan-title{
+.plan-title {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 60px;
 }
-.plan-details{
+
+.plan-details {
     display: flex;
     margin-left: 230px;
     margin-right: 230px;
     justify-content: space-between;
 }
-.plan-item{
+
+.plan-item {
     text-align: center;
 }
-.plan-name{
+
+.plan-name {
     margin-top: 6px;
 }
-.plan-description{
+
+.plan-description {
     color: #737272;
     margin-top: 6px;
+}
+
+/* Watch section styles */
+
+.watch{
+    margin-top: 130px;
+    margin-left: 230px;
+    margin-right: 200px;
+    width: 800px;
+    height: 200px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(/images/watch.png);
+    border-radius: 8px;
+    margin-bottom: 100px;
+}
+.watch h2{
+    color:  #FFFFFF;
+    padding-left: 64px;
+    padding-top: 59px;
+    text-align: left;
+}
+.watch button{
+    margin-left: 64px;
 }
